@@ -9,6 +9,6 @@ public partial class GridPage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-
+		Navigation.PushAsync(new StackLayoutPage());
     }
 }

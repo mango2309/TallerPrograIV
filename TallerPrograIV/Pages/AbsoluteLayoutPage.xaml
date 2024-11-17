@@ -5,7 +5,7 @@
              Title="AbsoluteLayoutPage"
              Background="AntiqueWhite">
     <AbsoluteLayout>
-        <Label Text="Texto Centrado" 
+        <Label Text="Pagina de Absolute Layout" 
                AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
                AbsoluteLayout.LayoutFlags="PositionProportional" 
                Background="Black"/>

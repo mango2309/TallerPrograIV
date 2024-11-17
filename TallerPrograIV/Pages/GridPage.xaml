@@ -12,14 +12,13 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Button Text="Next" HeightRequest="50" Clicked="Button_Clicked" Background="Red"></Button>
 
 
         <BoxView Color="Green" Grid.Row="0" Grid.Column="0" />
         <BoxView Color="Blue" Grid.Row="0" Grid.Column="1" />
         <BoxView Color="Aquamarine" Grid.Row="1" Grid.Column="0" />
         <BoxView Color="Purple" Grid.Row="1" Grid.Column="1" />
-
+        <Button Text="Next" Clicked="Button_Clicked" Background="Red"></Button>
 
         <!--<Button Text="Next" Grid.Row="1" Grid.Column="1" 
                 Clicked="Button_Clicked" BackgroundColor="Red" />-->

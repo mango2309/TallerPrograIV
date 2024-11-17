@@ -1,4 +1,5 @@
-﻿namespace TallerPrograIV
+﻿
+namespace TallerPrograIV
 {
     public partial class App : Application
     {
@@ -6,7 +7,7 @@
         {
             InitializeComponent();
 
-            MainPage = new TabbedPageTaller();
+            MainPage = new NavigationPage(new GridPage());
         }
     }
 }

@@ -5,10 +5,10 @@
              Title="StackLayoutPage">
     
     <StackLayout Padding="20">
-        <Label Text="Rojo" FontSize="24" TextColor="Red" />
-        <Label Text="Amarillo" FontSize="24" TextColor="Yellow" />
-        <Label Text="Azul" FontSize="24" TextColor="Blue" />
-        <Label Text="Verde" FontSize="24" TextColor="Green" />
-        <!--<Button Text="Next" Clicked="Button_Clicked_1" />-->
+        <Label Text="Jose Perez" FontSize="24" TextColor="Red" />
+        <Label Text="Jose Perez" FontSize="24" TextColor="Yellow" />
+        <Label Text="Sebastian Largo" FontSize="24" TextColor="Blue" />
+        <Label Text="Sebastian Largo" FontSize="24" TextColor="Green" />
+        <Button Text="Next Flex" Clicked="Button_Clicked"></Button>
     </StackLayout>
 </ContentPage>

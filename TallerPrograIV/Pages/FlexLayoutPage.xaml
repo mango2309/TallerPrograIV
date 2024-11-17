@@ -21,7 +21,9 @@
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    FlexLayout.Grow="1" />
-            <Button Text="Siguiente" Clicked="Button_Clicked"> </Button>
+            <Label Text="Sebastian Largo"></Label>
+            <Label Text="Jose Perez"></Label>
+            <Button Text="Next Absolute" Clicked="Button_Clicked"> </Button>
 
             <!-- Navigation items-->
             <BoxView FlexLayout.Basis="50"

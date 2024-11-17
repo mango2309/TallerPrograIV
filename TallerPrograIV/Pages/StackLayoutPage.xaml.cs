@@ -7,9 +7,8 @@ public partial class StackLayoutPage : ContentPage
 		InitializeComponent();
 	}
 
-    //private async void BotonStack_Clicked(object sender, EventArgs e)
-    //{
-    //    await Shell.Current.GoToAsync("flexPage");
-    //}
-
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new FlexLayoutPage());
+    }
 }
