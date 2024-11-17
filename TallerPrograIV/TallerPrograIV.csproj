@@ -63,13 +63,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AbsoluteLayoutPage.xaml">
+	  <MauiXaml Update="Pages\AbsoluteLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FlexLayoutPage.xaml">
+	  <MauiXaml Update="Pages\FlexLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="GridPage.xaml">
+	  <MauiXaml Update="Pages\GridPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
